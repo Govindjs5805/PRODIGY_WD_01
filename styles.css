@@ -126,10 +126,18 @@ header {
     width: 350px;
 }
 .contenttttt {
-    font-size: 30px;
-    padding-left: 30px;
-    font-weight: 500;
-    margin-bottom: 0px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-right: 200px;
+    background-color: rgba(13, 93, 107, 0.493);
+    border-radius: 30px;
+    max-width: 690px;
+    margin: 20px 60px;
+    min-width: 300px;
+    margin-left: 50px;
 }
 .number {
     font-size: 60px;
