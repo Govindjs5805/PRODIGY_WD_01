@@ -35,7 +35,7 @@ section {
     font-size: 35px;
     position: relative;
     letter-spacing: 1px;
-    left: -6px;
+    left: -10px;
 }
 .content {
     max-width: 500px;
@@ -68,6 +68,7 @@ header {
      transition: 0.2s;
      transition-property: "background";
      margin-right: 20px;
+     position: static;
 }
 .navigation a:not(:last-child){
     margin-right: 20px;
@@ -114,6 +115,55 @@ header {
     background-position: center;
     background-size: cover;
 }
+.contentttt {
+    font-size: 100px;
+    margin-left: 45px;
+    min-width: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.star {
+    width: 350px;
+}
+.contenttttt {
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.number {
+    font-size: 60px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+}
+.mailid {
+    font-size: 60px;
+    margin-left: 30px;
+}
+.fifth {
+    background-image: url(volkswagen_phideon_2020_5k-5120x2880.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.headdddd {
+    font-size: 40px;
+    letter-spacing:2px;
+}
+.mail {
+    font-size: 100px;
+    margin-left: 45px;
+    display: flex;
+}
+.third {
+    background-image: url(volkswagen_id__code_2024_8k-7680x4320.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.forth {
+    background-position: center;
+    background-size: cover;
+    background-image: url(volkswagen_golf_gti_2021_4k_3-3840x2160.jpg);
+}
 .contentt {
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -126,9 +176,31 @@ header {
     max-width: 690px;
     margin: 10px 60px;
 }
+.contenttt {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-right: 300px;
+    background-color: rgba(13, 93, 107, 0.493);
+    border-radius: 30px;
+    max-width: 690px;
+    margin: 10px 60px;
+}
 .headd {
     font-size: 40px;
     letter-spacing:2px;
+}
+.headdd {
+    color: black;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.headddd {
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 30px;
 }
 .media-icons {
     font-size: 30px;
