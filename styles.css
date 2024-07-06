@@ -16,65 +16,84 @@ section {
     background-image: url(wp2445931-volkswagen-wallpapers.jpg);
     background-size: cover;
     background-position: center;
-    background-color: black;
+    background-color: #0f054200;
 }
-.logo {
-    position: relative;
-    width: 150px;
-    padding-top: 0px;
-    padding-left: 22px;
-    padding-bottom: 0px;
-    size: 0px;
-    min-width: 80px;
+
     
-}
-.logoo {
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
-    font-size: 35px;
-    position: relative;
-    letter-spacing: 1px;
-    left: -10px;
-}
+
+
+
 .content {
     max-width: 500px;
     margin: 10px 60px;
     background-color: rgba(46, 109, 151, 0.61);
-    border-radius: 10px;padding: 20px;
+    border-radius: 10px;
+    padding-top: 150px;
     padding-bottom: 0px;
+    padding-left: 20px;
 }
-.image {
-    padding-left: 900px;
-    padding-top: px;
-}
-header {
+.volks {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
     position: relative;
     display: flex;
+
+}
+
+
+header {
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px 120px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    z-index: 100;
 }
-.navigation a{
+nav {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 10px;
+    justify-content: space-between;
+    position: fixed;
+    left: 600px;
+    display: inline;
+}
+nav a{
      color: black;
      text-decoration: none;
      background: white;
      font-weight: 600;
      padding: 2px 15px;
      border-radius: 10px;
-     letter-spacing: 1px;
      transition: 0.2s;
      transition-property: "background";
-     margin-right: 20px;
-     position: static;
+     top: 0;
+     left: 800px;
+     margin-left: 1px;
+     letter-spacing: 3px;
+     justify-content: space-between;
+
 }
-.navigation a:not(:last-child){
+nav a:not(:last-child){
     margin-right: 20px;
 }
-.navigation a:hover {
+nav a:hover {
     background-color: rgb(74, 189, 218);
+    color: black;
+}
+nav a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+nav .icon {
+    display: none;
 }
 .info h2{
     color:  #ffffff;
@@ -86,12 +105,8 @@ header {
     font-size: 30px;
     font-weight: 800;
 }
-.infoo {
-   text-decoration: none;
-   border-radius: 2px;
-   color: hsl(0, 0%, 0%);
-   border-radius: 2px;
-}
+
+
 .infoo:hover {
     background: #b92929;
     border-radius: 8px;
@@ -116,14 +131,24 @@ header {
     background-size: cover;
 }
 .contentttt {
-    font-size: 100px;
+    font-size: 50px;
     margin-left: 45px;
     min-width: 100px;
-    padding-top: 50px;
+    padding-top: 140px;
     padding-bottom: 0px;
 }
 .star {
     width: 350px;
+}
+h1 {
+    bottom: 100px;
+}
+.ppp {
+    position: relative;
+    padding-left: px;
+    justify-content: center;
+    align-items: center;
+
 }
 .contenttttt {
     font-size: 25px;
@@ -135,9 +160,10 @@ header {
     background-color: rgba(13, 93, 107, 0.493);
     border-radius: 30px;
     max-width: 690px;
-    margin: 20px 60px;
+    margin: 2px 60px;
     min-width: 300px;
     margin-left: 50px;
+    padding-top: 95px;
 }
 .number {
     font-size: 60px;
@@ -153,10 +179,8 @@ header {
     background-position: center;
     background-size: cover;
 }
-.headdddd {
-    font-size: 40px;
-    letter-spacing:2px;
-}
+
+
 .mail {
     font-size: 100px;
     margin-left: 45px;
@@ -183,6 +207,7 @@ header {
     border-radius: 30px;
     max-width: 690px;
     margin: 10px 60px;
+    padding-top: 100px;
 }
 .contenttt {
     font-size: 18px;
@@ -195,21 +220,10 @@ header {
     border-radius: 30px;
     max-width: 690px;
     margin: 10px 60px;
+    padding-top: 100px;
 }
-.headd {
-    font-size: 40px;
-    letter-spacing:2px;
-}
-.headdd {
-    color: black;
-    font-size: 40px;
-    padding-left: 50px;
-}
-.headddd {
-    color: #ffffff;
-    font-size: 40px;
-    padding-left: 30px;
-}
+
+
 .media-icons {
     font-size: 30px;
     padding-left: 0px;
@@ -261,7 +275,7 @@ label {
     label .close-btn {
         display: none;
     }
-    #check:checked ~ header .navigation{
+    #check:checked ~ header nav{
         z-index: 2;
         position: fixed;
         background-color: beige;
